@@ -3,10 +3,8 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 
 require('dotenv').config();
-// ewewew
 const app = express();
 const port = process.env.PORT || 6000;
-// ewewew
 app.use(cors());
 app.use(express.json());
 
