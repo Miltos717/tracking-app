@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT || 6000;
 // ewewew
 app.use(cors());
-app.use(express.json());
+app.use(express.json());// ewewewe
 
 const uri = "mongodb://localhost:27011"; 
 mongoose.connect(uri, { useNewUrlParser: true }
