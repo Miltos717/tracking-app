@@ -2,13 +2,13 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 
-require('dotenv').config(); // ewewew
+require('dotenv').config();
 
 const app = express();
 const port = process.env.PORT || 6000;
 // ewewew
 app.use(cors());
-app.use(express.json());// ewewewe
+app.use(express.json());
 
 const uri = "mongodb://localhost:27011"; 
 mongoose.connect(uri, { useNewUrlParser: true }
