@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 // ewew
-require('dotenv').config();
+require('dotenv').config(); // ewewew
 
 const app = express();
 const port = process.env.PORT || 6000;
