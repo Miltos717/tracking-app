@@ -9,7 +9,7 @@ const exerciseSchema = new Schema({
   date: { type: Date, required: true },
 }, {
   timestamps: true,
-});
+});ewe
 
 const Exercise = mongoose.model('Exercise', exerciseSchema);
 
