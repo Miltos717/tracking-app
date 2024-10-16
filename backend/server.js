@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 6000;
 app.use(cors());
 app.use(express.json());
-
+// qwqwq
 const uri = "mongodb://localhost:27011"; 
 mongoose.connect(uri, { useNewUrlParser: true }
 );
