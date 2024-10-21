@@ -10,41 +10,7 @@ const exerciseSchema = new Schema({
 }, {
   timestamps: true,
 });
-const a = 1 ;
-const exerciseSchema = new Schema({
-  username: { type: String, required: true },
-  description: { type: String, required: true },
-  duration: { type: Number, required: true },
-  date: { type: Date, required: true },
-}, {
-  timestamps: true,
-});
-const exerciseSchema = new Schema({
-  username: { type: String, required: true },
-  description: { type: String, required: true },
-  duration: { type: Number, required: true },
-  date: { type: Date, required: true },
-}, {
-  timestamps: true,
-});
-const exerciseSchema = new Schema({
-  username: { type: String, required: true },
-  description: { type: String, required: true },
-  duration: { type: Number, required: true },
-  date: { type: Date, required: true },
-}, {
-  timestamps: true,
-});
-const exerciseSchema = new Schema({
-  username: { type: String, required: true },
-  description: { type: String, required: true },
-  duration: { type: Number, required: true },
-  date: { type: Date, required: true },
-}, {
-  timestamps: true,
-});
 
-
-const Exercise = mongoose.model('Exercise', exerciseSchema); // test
+const Exercise = mongoose.model('Exercise', exerciseSchema);
 
 module.exports = Exercise;
