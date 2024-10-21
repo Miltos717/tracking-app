@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
-// ekwewmneneknwknekwn
+
 const exerciseSchema = new Schema({
   username: { type: String, required: true },
   description: { type: String, required: true },
@@ -9,7 +9,41 @@ const exerciseSchema = new Schema({
   date: { type: Date, required: true },
 }, {
   timestamps: true,
-});ewe
+});
+const a = 1 ;
+const exerciseSchema = new Schema({
+  username: { type: String, required: true },
+  description: { type: String, required: true },
+  duration: { type: Number, required: true },
+  date: { type: Date, required: true },
+}, {
+  timestamps: true,
+});
+const exerciseSchema = new Schema({
+  username: { type: String, required: true },
+  description: { type: String, required: true },
+  duration: { type: Number, required: true },
+  date: { type: Date, required: true },
+}, {
+  timestamps: true,
+});
+const exerciseSchema = new Schema({
+  username: { type: String, required: true },
+  description: { type: String, required: true },
+  duration: { type: Number, required: true },
+  date: { type: Date, required: true },
+}, {
+  timestamps: true,
+});
+const exerciseSchema = new Schema({
+  username: { type: String, required: true },
+  description: { type: String, required: true },
+  duration: { type: Number, required: true },
+  date: { type: Date, required: true },
+}, {
+  timestamps: true,
+});
+
 
 const Exercise = mongoose.model('Exercise', exerciseSchema); // test
 
